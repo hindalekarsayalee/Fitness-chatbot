@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Fitness Chatbot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Start of Watson Chat Widget -->
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "6c5ad4e1-7d48-409f-963d-bfb7091203bc", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "ef287e4f-3d08-4c3c-a0af-72b416add9c5", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<!-- End of Watson Chat Widget -->
+
+<body class="bg-gradient-to-tr from-indigo-100 via-white to-purple-100 min-h-screen font-sans">
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-6">
+    <h1 class="text-5xl font-bold text-gray-800 mb-4">Your Personal AI Fitness Coach</h1>
+    <p class="text-lg text-gray-600 mb-6">Get workout plans, diet advice, and motivation in one place.</p>
+    <a href="#chatbot" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">Try Now</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-8 px-10 pb-20">
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Workout Routines</h3>
+      <p class="text-gray-600">Get AI-curated workout plans tailored to your goals.</p>
+    </div>
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Diet Suggestions</h3>
+      <p class="text-gray-600">Receive meal recommendations based on your preferences.</p>
+    </div>
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Motivational Coaching</h3>
+      <p class="text-gray-600">Stay on track with daily motivation and reminders.</p>
+    </div>
+  </section>
+
+
+</body>
+</html>
