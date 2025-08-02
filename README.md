@@ -42,11 +42,9 @@ Make sure your Watsonx Assistant is integrated properly:
 
 3. Replace the integration script (in index.html) with your Watson Assistant Embed Code.
 
-The embed code looks like:
+- The embed code looks like:
 
-html
-Copy
-Edit
+html Copy Edit
 <script>
   window.watsonAssistantChatOptions = {
     integrationID: "your-integration-id", 
@@ -62,18 +60,20 @@ Edit
 </script>
 Deploy the page on GitHub Pages or any static hosting platform.
 
-📸 Screenshot - 
+- Screenshot - 
 
-(Replace with your actual screenshot path)
+<img width="1912" height="924" alt="Screenshot 2025-08-03 014356" src="https://github.com/user-attachments/assets/384cf60a-31ec-4f81-892b-ad37eea3a258" />
 
-📌 Technologies Used
+<img width="1919" height="882" alt="Screenshot 2025-08-03 014925" src="https://github.com/user-attachments/assets/ed6639de-66bd-4381-9116-ad6f6caae295" />
+
+- Technologies Used
 Layer	Technology
 Chat Logic	IBM Watsonx Assistant
 UI / Frontend	HTML, CSS
 Optional Enhancements	JavaScript
 Hosting	GitHub Pages / Local
 
-📈 Future Scope - 
+- Future Scope - 
 Add voice interaction support
 
 Track fitness progress over time
@@ -82,12 +82,12 @@ Use backend to store user data
 
 Integration with fitness APIs (calorie tracker, steps tracker, etc.)
 
-Acknowledgment - 
+- Acknowledgment - 
 IBM Watsonx Assistant
 
 YouTube tutorial: Fitness Chatbot using Watsonx Assistant
 
-References - 
+- References - 
 IBM Watsonx Assistant Documentation
 
 HTML/CSS Basics
