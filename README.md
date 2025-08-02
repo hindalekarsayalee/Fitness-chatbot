@@ -34,7 +34,7 @@ Built using:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/ai-fitness-chatbot.git
+   https://github.com/hindalekarsayalee/Fitness-chatbot
 
 2. Open index.html in a browser.
 
