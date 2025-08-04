@@ -1,4 +1,4 @@
-# AI Fitness Chatbot 💪🤖
+# AI Fitness Chatbot 💪
 
 A web-based AI-powered chatbot that helps users with fitness guidance, workout routines, diet plans, and motivational quotes through a conversational interface using **IBM Watsonx Assistant**.
 
